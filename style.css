@@ -71,16 +71,16 @@ margin: 0 15px;
     margin: 50px 0;
     text-align: center;
 }
-#Cheering{
-text-align: center;
-font-family: "Roboto Mono";
-font-size: 30px;
-color: tomato;
-font-weight: bolder;
-text-shadow: 2px 1px mistyrose;
-}
+
 .eachchoice>img:hover{
     cursor: pointer;
 opacity: 1;
 }
 
+#cheer{
+    margin: 30px 0;
+    text-align: center;
+}
+#we{
+    visibility:hidden;
+}
