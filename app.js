@@ -22,8 +22,10 @@ function play(Whichtype){
     console.log("Uuser  " + Whichtype);
     console.log("BUpet  " + computerchoice)
 }
+
+///why
 function main(){
-    rock_div.addEventListener("click",function(){play("r");
+    rock_div.addEventListener("click",function()(play("r");
 
 })
 paper_div.addEventListener("click",function(){play("p");
