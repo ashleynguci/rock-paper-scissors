@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background: #a3b0c1;
+}
+
+header{
+    background: white;
+    padding: 20px;
+}
+
+header > h1{
+    color: #a3b0c1;
+text-align: center;
+font-family: "Roboto Mono";
+}
+
+.scoreboard{
+    border: 3px solid white;
+    border-radius: 10px;
+    width: 25%;
+    margin: 20px auto;
+    color: snow;
+    font-size: 45px;
+    text-align: center;
+    padding: 15px 20px;
+    font-family: "Roboto Mono";
+    position: relative;
+}
+
+.tag{
+    background: #f95659;
+    color:snow;
+    font-size: 14px;
+    padding: 2px 10px;
+font-family: "Roboto Mono";
+}
+
+#user{
+    position: absolute;
+    top: 30px;
+    left: -25px;
+}
+#computer{
+    position: absolute;
+    top: 30px;
+    right: -28px;
+}
+.result{
+    font-size: 40px;
+    color: snow;
+}
+.result > p {
+    text-align: center;
+    font-family: "Roboto Mono";
+    font-weight: bold;
+}
+.eachchoice > img{
+    border-radius: 50%;
+opacity: 0.5;
+transition: all 0.5s ease;}
+.eachchoice{
+    display: inline-block;
+margin: 0 15px;
+}
+.choices{
+    margin: 50px 0;
+    text-align: center;
+}
+#Cheering{
+text-align: center;
+font-family: "Roboto Mono";
+font-size: 30px;
+color: tomato;
+font-weight: bolder;
+text-shadow: 2px 1px mistyrose;
+}
+.eachchoice>img:hover{
+    cursor: pointer;
+opacity: 1;
+}
+
