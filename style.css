@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background: #a3b0c1;
+    background: url('bg.jpg');
 }
 
 header{
