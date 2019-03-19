@@ -21,8 +21,8 @@ function win(u, c) {
   compScore = compScore;
   result.innerHTML = Convert(u) + " beats " + Convert(c) + ". You win ";
   var i = Math.floor(Math.random() * 3 + 1);
-  document.getElementById("we").src = "images/win" + i + ".jpg";
-  document.getElementById("we").style.visibility = "visible";
+  document.getElementById("showMeme").src = "images/win" + i + ".jpg";
+  document.getElementById("showMeme").style.visibility = "visible";
 }
 function lose(u, c) {
   compScore++;
@@ -30,17 +30,17 @@ function lose(u, c) {
   userScore = userScore;
   result.innerHTML = Convert(c) + " beats " + Convert(u) + ". You lose ";
   var i = Math.floor(Math.random() * 3 + 1);
-  document.getElementById("we").src = "images/lose" + i + ".jpg";
+  document.getElementById("showMeme").src = "images/lose" + i + ".jpg";
 
-  document.getElementById("we").style.visibility = "visible";
+  document.getElementById("showMeme").style.visibility = "visible";
 }
 function draw(u, c) {
   userScore = userScore;
   compScore = compScore;
   result.innerHTML =
     Convert(u) + " is equal to " + Convert(c) + ". Nothing changed";
-  document.getElementById("we").src = "images/draw.jpg";
-  document.getElementById("we").style.visibility = "visible";
+  document.getElementById("showMeme").src = "images/draw.jpg";
+  document.getElementById("showMeme").style.visibility = "visible";
 }
 
 function getComputerChoice() {
