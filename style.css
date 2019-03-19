@@ -1,87 +1,88 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
-*{
-    margin: 0;
-    padding:0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    background: #a3b0c1;
-}
-
-header{
-    background: white;
-    padding: 20px;
+body {
+  background: url("images/bg.jpg");
 }
 
-header > h1{
-    color: #a3b0c1;
-text-align: center;
-font-family: "Roboto Mono";
+header {
+  background: white;
+  padding: 20px;
 }
 
-.scoreboard{
-    border: 3px solid white;
-    border-radius: 10px;
-    width: 25%;
-    margin: 20px auto;
-    color: snow;
-    font-size: 45px;
-    text-align: center;
-    padding: 15px 20px;
-    font-family: "Roboto Mono";
-    position: relative;
+header > h1 {
+  color: #a3b0c1;
+  text-align: center;
+  font-family: "Roboto Mono";
 }
 
-.tag{
-    background: #f95659;
-    color:snow;
-    font-size: 14px;
-    padding: 2px 10px;
-font-family: "Roboto Mono";
+.scoreboard {
+  border: 3px solid white;
+  border-radius: 10px;
+  width: 25%;
+  margin: 20px auto;
+  color: snow;
+  font-size: 45px;
+  text-align: center;
+  padding: 15px 20px;
+  font-family: "Roboto Mono";
+  position: relative;
 }
 
-#user{
-    position: absolute;
-    top: 30px;
-    left: -25px;
+.tag {
+  background: #f95659;
+  color: snow;
+  font-size: 14px;
+  padding: 2px 10px;
+  font-family: "Roboto Mono";
 }
-#computer{
-    position: absolute;
-    top: 30px;
-    right: -28px;
+
+#user {
+  position: absolute;
+  top: 30px;
+  left: -25px;
 }
-.result{
-    font-size: 40px;
-    color: snow;
+#computer {
+  position: absolute;
+  top: 30px;
+  right: -28px;
+}
+.result {
+  font-size: 40px;
+  color: snow;
 }
 .result > p {
-    text-align: center;
-    font-family: "Roboto Mono";
-    font-weight: bold;
+  text-align: center;
+  font-family: "Roboto Mono";
+  font-weight: bold;
 }
-.eachchoice > img{
-    border-radius: 50%;
-opacity: 0.5;
-transition: all 0.5s ease;}
-.eachchoice{
-    display: inline-block;
-margin: 0 15px;
+.eachchoice > img {
+  border-radius: 50%;
+  opacity: 0.5;
+  transition: all 0.5s ease;
 }
-.choices{
-    margin: 50px 0;
-    text-align: center;
+.eachchoice {
+  display: inline-block;
+  margin: 0 15px;
 }
-
-.eachchoice>img:hover{
-    cursor: pointer;
-opacity: 1;
+.choices {
+  margin: 50px 0;
+  text-align: center;
 }
 
-#cheer{
-    margin: 30px 0;
-    text-align: center;
+.eachchoice > img:hover {
+  cursor: pointer;
+  opacity: 1;
 }
-#we{
-    visibility:hidden;
-    border-radius: 50%;
+
+#cheer {
+  margin: 30px 0;
+  text-align: center;
+}
+#we {
+  visibility: hidden;
+  border-radius: 20%;
 }
